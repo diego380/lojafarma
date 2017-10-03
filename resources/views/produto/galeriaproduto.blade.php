@@ -1,28 +1,159 @@
-@extends('layouts.app')
+@extends('master.master')
 
 @section('content')
 
-<div class="container">
+<div class="corpo">
+    <div class="container">
     <div class="row">
         <ul class="thumbnails">
+
             <div class="col-md-3">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/320x200" alt="ALT NAME" class="img-responsive" />
+                    <img src="/img/tarjas.png" alt="ALT NAME" class="img-responsive" />
                     <div class="caption">
-                       <h4><b>R$ 10,00</b></h4>
-                       <p>ABRIFIT XPE C/100ML HEDERA+COPO DOSADOR </p>
-                       <a href="">
-                        <button type="button" class="btn btn-primary btn-circle"><i class="glyphicon glyphicon-list"></i></button>
-                        <button type="button" class="btn btn-success btn-circle"><i class="glyphicon glyphicon-link"></i></button>
-                    </a>
-                    <a href="">
-                        <button class="btn btn-success">Comprar</button>
-                    </a>
+                        <h4><b>R$ 10,00</b></h4>
+                        <p>ABRIFIT XPE C/100ML HEDERA+COPO DOSADOR </p>
+                        <a class="btn icon-btn btn-success" href="#"><span class="glyphicon btn-glyphicon glyphicon-plus img-circle text-success"></span>Adicionar</a>
+                        <a class="btn icon-btn btn-primary" href="#"><span class="glyphicon btn-glyphicon glyphicon-align-justify img-circle text-primary"></span>Descrição</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </ul>
+
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="/img/tarjas.png" alt="ALT NAME" class="img-responsive" />
+                    <div class="caption">
+                        <h4><b>R$ 10,00</b></h4>
+                        <p>ABRIFIT XPE C/100ML HEDERA+COPO DOSADOR </p>
+                        <a class="btn icon-btn btn-success" href="#"><span class="glyphicon btn-glyphicon glyphicon-plus img-circle text-success"></span>Adicionar</a>
+                        <a class="btn icon-btn btn-primary" href="#"><span class="glyphicon btn-glyphicon glyphicon-align-justify img-circle text-primary"></span>Descrição</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="/img/tarjas.png" alt="ALT NAME" class="img-responsive" />
+                    <div class="caption">
+                        <h4><b>R$ 10,00</b></h4>
+                        <p>ABRIFIT XPE C/100ML HEDERA+COPO DOSADOR </p>
+                        <a class="btn icon-btn btn-success" href="#"><span class="glyphicon btn-glyphicon glyphicon-plus img-circle text-success"></span>Adicionar</a>
+                        <a class="btn icon-btn btn-primary" href="#"><span class="glyphicon btn-glyphicon glyphicon-align-justify img-circle text-primary"></span>Descrição</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="/img/tarjas.png" alt="ALT NAME" class="img-responsive" />
+                    <div class="caption">
+                        <h4><b>R$ 10,00</b></h4>
+                        <p>ABRIFIT XPE C/100ML HEDERA+COPO DOSADOR </p>
+                        <a class="btn icon-btn btn-success" href="#"><span class="glyphicon btn-glyphicon glyphicon-plus img-circle text-success"></span>Adicionar</a>
+                        <a class="btn icon-btn btn-primary" href="#"><span class="glyphicon btn-glyphicon glyphicon-align-justify img-circle text-primary"></span>Descrição</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="/img/tarjas.png" alt="ALT NAME" class="img-responsive" />
+                    <div class="caption">
+                        <h4><b>R$ 10,00</b></h4>
+                        <p>ABRIFIT XPE C/100ML HEDERA+COPO DOSADOR </p>
+                        <a class="btn icon-btn btn-success" href="#"><span class="glyphicon btn-glyphicon glyphicon-plus img-circle text-success"></span>Adicionar</a>
+                        <a class="btn icon-btn btn-primary" href="#"><span class="glyphicon btn-glyphicon glyphicon-align-justify img-circle text-primary"></span>Descrição</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="/img/tarjas.png" alt="ALT NAME" class="img-responsive" />
+                    <div class="caption">
+                        <h4><b>R$ 10,00</b></h4>
+                        <p>ABRIFIT XPE C/100ML HEDERA+COPO DOSADOR </p>
+                        <a class="btn icon-btn btn-success" href="#"><span class="glyphicon btn-glyphicon glyphicon-plus img-circle text-success"></span>Adicionar</a>
+                        <a class="btn icon-btn btn-primary" href="#"><span class="glyphicon btn-glyphicon glyphicon-align-justify img-circle text-primary"></span>Descrição</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="/img/tarjas.png" alt="ALT NAME" class="img-responsive" />
+                    <div class="caption">
+                        <h4><b>R$ 10,00</b></h4>
+                        <p>ABRIFIT XPE C/100ML HEDERA+COPO DOSADOR </p>
+                        <a class="btn icon-btn btn-success" href="#"><span class="glyphicon btn-glyphicon glyphicon-plus img-circle text-success"></span>Adicionar</a>
+                        <a class="btn icon-btn btn-primary" href="#"><span class="glyphicon btn-glyphicon glyphicon-align-justify img-circle text-primary"></span>Descrição</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="/img/tarjas.png" alt="ALT NAME" class="img-responsive" />
+                    <div class="caption">
+                        <h4><b>R$ 10,00</b></h4>
+                        <p>ABRIFIT XPE C/100ML HEDERA+COPO DOSADOR </p>
+                        <a class="btn icon-btn btn-success" href="#"><span class="glyphicon btn-glyphicon glyphicon-plus img-circle text-success"></span>Adicionar</a>
+                        <a class="btn icon-btn btn-primary" href="#"><span class="glyphicon btn-glyphicon glyphicon-align-justify img-circle text-primary"></span>Descrição</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="/img/tarjas.png" alt="ALT NAME" class="img-responsive" />
+                    <div class="caption">
+                        <h4><b>R$ 10,00</b></h4>
+                        <p>ABRIFIT XPE C/100ML HEDERA+COPO DOSADOR </p>
+                        <a class="btn icon-btn btn-success" href="#"><span class="glyphicon btn-glyphicon glyphicon-plus img-circle text-success"></span>Adicionar</a>
+                        <a class="btn icon-btn btn-primary" href="#"><span class="glyphicon btn-glyphicon glyphicon-align-justify img-circle text-primary"></span>Descrição</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="/img/tarjas.png" alt="ALT NAME" class="img-responsive" />
+                    <div class="caption">
+                        <h4><b>R$ 10,00</b></h4>
+                        <p>ABRIFIT XPE C/100ML HEDERA+COPO DOSADOR </p>
+                        <a class="btn icon-btn btn-success" href="#"><span class="glyphicon btn-glyphicon glyphicon-plus img-circle text-success"></span>Adicionar</a>
+                        <a class="btn icon-btn btn-primary" href="#"><span class="glyphicon btn-glyphicon glyphicon-align-justify img-circle text-primary"></span>Descrição</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="/img/tarjas.png" alt="ALT NAME" class="img-responsive" />
+                    <div class="caption">
+                        <h4><b>R$ 10,00</b></h4>
+                        <p>ABRIFIT XPE C/100ML HEDERA+COPO DOSADOR </p>
+                        <a class="btn icon-btn btn-success" href="#"><span class="glyphicon btn-glyphicon glyphicon-plus img-circle text-success"></span>Adicionar</a>
+                        <a class="btn icon-btn btn-primary" href="#"><span class="glyphicon btn-glyphicon glyphicon-align-justify img-circle text-primary"></span>Descrição</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="/img/tarjas.png" alt="ALT NAME" class="img-responsive" />
+                    <div class="caption">
+                        <h4><b>R$ 10,00</b></h4>
+                        <p>ABRIFIT XPE C/100ML HEDERA+COPO DOSADOR </p>
+                        <a class="btn icon-btn btn-success" href="#"><span class="glyphicon btn-glyphicon glyphicon-plus img-circle text-success"></span>Adicionar</a>
+                        <a class="btn icon-btn btn-primary" href="#"><span class="glyphicon btn-glyphicon glyphicon-align-justify img-circle text-primary"></span>Descrição</a>
+                    </div>
+                </div>
+            </div>
+        </ul>
+    </div>
+</div>    
 </div>
-</div>
+
 
 @endsection

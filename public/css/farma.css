@@ -1,0 +1,23 @@
+
+.corpo{
+  margin-top: 70px;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 5px;
+  width: auto;
+}
+
+.btn-glyphicon {
+  padding:8px;
+  background:
+  margin-right:4px;
+}
+.icon-btn {
+  padding: 1px 8px 2px 2px;
+  border-radius:50px;
+}
