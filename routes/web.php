@@ -14,3 +14,21 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group(['prefix' => 'produtos'], function() {
+    Route::get('galeria', [
+    	'as'=>'produto.galeriaproduto',
+    	'uses'=>'Produto\ProdutoController@galeria'
+    ]);
+
+    Route::get('descricao', [
+    	'as'=>'produto.descricaoproduto',
+    	'uses'=>'Produto\ProdutoController@descricao'
+    ]);
+});
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
