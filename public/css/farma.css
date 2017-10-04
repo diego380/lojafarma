@@ -12,12 +12,31 @@
   width: auto;
 }
 
+.dropdown-menu{
+  width: 280px;
+}
+
+
+.thumbnail{
+  width: 200px;
+}
+
+#titulo_produto{
+  width: 170px;
+  border-style: solid;
+  max-height: 170px;
+}
+
 .btn-glyphicon {
-  padding:8px;
-  background:
+  padding:1px;
+  background:#ffffff;
   margin-right:4px;
 }
+
 .icon-btn {
-  padding: 1px 8px 2px 2px;
+  padding: 2px 3px 2px 2px;
   border-radius:50px;
+  font-size: 12px;
 }
+
+
