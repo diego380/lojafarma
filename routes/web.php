@@ -25,6 +25,11 @@ Route::group(['prefix' => 'produtos'], function() {
     	'as'=>'produto.descricaoproduto',
     	'uses'=>'Produto\ProdutoController@descricao'
     ]);
+
+    Route::get('carrinho',[
+    	'as'=>'carrinho.carrinho',
+    	'uses'=>'Produto\ProdutoController@carrinho'
+    ]);
 });
 
 

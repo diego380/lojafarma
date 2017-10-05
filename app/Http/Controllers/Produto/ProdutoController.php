@@ -17,4 +17,9 @@ class ProdutoController extends Controller
     {
     	return view('produto.descricaoproduto');
     }
+
+    public function carrinho()
+    {
+    	return view('carrinho.carrinho');
+    }
 }
