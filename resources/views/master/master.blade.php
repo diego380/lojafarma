@@ -34,7 +34,12 @@
 							<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
 						</form>
 					</li>
-					<li><a href=""><span class="glyphicon glyphicon-shopping-cart"></span> CARRINHO</a></li>
+					<li>
+						<a href="">
+							<span class="glyphicon glyphicon-shopping-cart"></span> CARRINHO 
+							<span class="badge"> 1 </span>
+						</a>
+					</li>
 					@if(Auth::check())
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -67,16 +72,16 @@
 											<input type="password" class="form-control" tabindex="2" name="password">
 										</div>
 										<div class="form-group">
-	                                        <div class="row">
-	                                            <div class="col-xs-7">
-	                                                <input type="checkbox" tabindex="3" name="remember" id="remember">
-	                                                <label for="remember"> Lembrar</label>
-	                                            </div>
-	                                            <div class="col-xs-5 pull-right">
-	                                                <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-primary" value="Entrar">
-	                                            </div>
-	                                        </div>
-	                                    </div>
+											<div class="row">
+												<div class="col-xs-7">
+													<input type="checkbox" tabindex="3" name="remember" id="remember">
+													<label for="remember"> Lembrar</label>
+												</div>
+												<div class="col-xs-5 pull-right">
+													<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-primary" value="Entrar">
+												</div>
+											</div>
+										</div>
 									</form>
 								</div>
 							</ul>
@@ -87,14 +92,47 @@
 		</div>
 	</nav>
 
-	<div class="corpo">
-		<div class="container">
-			@yield('content')
-		</div>
-	</div>
-	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-3 col-md-2 sidebar">
+				<ul class="nav nav-sidebar">
+					<li class="active"><a class="disabled" href="#">Tipo <span class="sr-only">(current)</span></a></li>
+					<li>
+						<ul>
+							<li><a href="">Similar</a></li>
+							<li><a href="">Generico</a></li>
+						</ul>
+					</li>
+				</ul>
 
-	<script src="{{ url('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js') }}"></script>
-	<script src="{{ url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js') }}"></script>
-</body>
-</html>
+				<ul class="nav nav-sidebar">
+					<li class="active"><a class="disabled" href="#">Tipo <span class="sr-only">(current)</span></a></li>
+					<li>
+						<ul>
+							<li><a href="">Similar</a></li>
+							<li><a href="">Generico</a></li>
+						</ul>
+					</li>
+				</ul>
+
+				<ul class="nav nav-sidebar">
+					<li class="active"><a class="disabled" href="#">Tipo <span class="sr-only">(current)</span></a></li>
+					<li>
+						<ul>
+							<li><a href="">Similar</a></li>
+							<li><a href="">Generico</a></li>
+						</ul>
+					</li>
+				</ul>
+
+			</div>
+			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main corpo">
+				@yield('content')
+			</div>
+		</div>
+
+
+		<script src="{{ url('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js') }}"></script>
+		<script src="{{ url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js') }}"></script>
+	</body>
+	</html>

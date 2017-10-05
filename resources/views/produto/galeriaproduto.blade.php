@@ -4,7 +4,7 @@
 @section('content')
 
 
-<div class="row col-md-11 pull-right">
+<div class="row">
         <ul class="thumbnails">
             <div class="col-md-3">
                 <div class="thumbnail">
