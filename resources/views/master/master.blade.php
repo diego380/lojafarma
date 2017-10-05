@@ -8,6 +8,7 @@
 	<link rel="icon" href="/img/shopping-cart.png">
 	<link rel="stylesheet" href="{{ url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css') }}">
 	<link rel="stylesheet" href="{{ url('/css/farma.css') }}">
+	<link rel="stylesheet" href="{{ url('https://fonts.googleapis.com/css?family=Ubuntu+Mono') }}">
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top">

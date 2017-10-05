@@ -12,4 +12,9 @@ class ProdutoController extends Controller
     {
        	return view('produto.galeriaproduto');
     }
+
+    public function descricao()
+    {
+    	return view('produto.descricaoproduto');
+    }
 }

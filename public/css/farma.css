@@ -79,9 +79,28 @@
   margin-top: 70px;
 }
 
+.mycontent-left {
+  border-right: 1px solid #333;
+}
+
 .disabled {
    pointer-events: none;
    cursor: default;
 }
 
+.monospaced { 
+  font-family: 'Ubuntu Mono',monospaced;
+}
 
+.add-to-cart .btn-qty {
+  width: 36px;
+  height: 30px;
+}
+
+.add-to-cart .btn {
+  border-radius: 15px;
+}
+
+.nav-tabs{
+  padding-top: 60px;
+}
