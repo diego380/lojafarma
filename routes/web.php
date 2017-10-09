@@ -11,9 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('login2',[
+	'as'=>'site.index',
+	'uses'=>'Site\SiteController@index'
+]);
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['prefix' => 'produtos'], function() {
     Route::get('galeria', [
@@ -29,6 +34,4 @@ Route::group(['prefix' => 'produtos'], function() {
 
 
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
