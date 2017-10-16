@@ -32,6 +32,18 @@ Route::group(['prefix' => 'produtos'], function() {
     ]);
 });
 
+Route::group(['prefix' => 'usuario'], function() {
+    Route::get('controle',[
+        'as'=>'usuario.controle',
+        'uses'=>'Usuario\UsuarioController@listapedido'
+    ]);
+
+    Route::get('admin/controle',[
+        'as'=>'usuario.controleadmin',
+        'uses'=>'Usuario\UsuarioController@admin'
+    ]);
+});
+
 
 
 Auth::routes();

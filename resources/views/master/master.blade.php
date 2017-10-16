@@ -54,39 +54,6 @@
 								<li><a href="{{ Auth::logout() }}">Sair</a></li>
 							</ul>
 						</li>
-					@else
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-								<span class="glyphicon glyphicon-user"></span> ENTRAR 
-								<span class="caret"></span>
-							</a>
-							<ul class="dropdown-menu">
-								<div class="col-lg-12">
-									<form action="{{ route('login') }}" class="form" method="post" accept-charset="utf-8">
-										{{ csrf_field() }}
-										<div class="form-group">
-											<label>Email:</label>
-											<input type="email" name="email" class="form-control" tabindex="1" required>
-										</div>
-										<div class="form-group">
-											<label>Senha:</label>
-											<input type="password" class="form-control" tabindex="2" name="password">
-										</div>
-										<div class="form-group">
-											<div class="row">
-												<div class="col-xs-7">
-													<input type="checkbox" tabindex="3" name="remember" id="remember">
-													<label for="remember"> Lembrar</label>
-												</div>
-												<div class="col-xs-5 pull-right">
-													<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-primary" value="Entrar">
-												</div>
-											</div>
-										</div>
-									</form>
-								</div>
-							</ul>
-						</li>
 					@endif
 				</ul>
 			</div>
